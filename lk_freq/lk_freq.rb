@@ -12,7 +12,7 @@ on :run do |s|
     file = IO.readlines("/proc/cpuinfo").join
 
     file.scan(/cpu MHz\s+:\s+([0-9.]+)/) do |freq| 
-      data << (Float(freq.first.to_i) / 1000).round(1).to_s + "G "
+      data << (Float(freq.first.to_i) / 1000).round(1).to_s + "G/"
 #       data << freq.first.to_i.to_s + "G "
     end
 

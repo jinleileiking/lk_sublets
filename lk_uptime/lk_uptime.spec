@@ -1,24 +1,24 @@
 # -*- encoding: utf-8 -*-
-# Lk_freq specification file
+# Lk_uptime specification file
 # Created with sur-0.2
 Sur::Specification.new do |s|
   # Sublet information
-  s.name        = "Lk_freq"
-  s.version     = "0.2"
+  s.name        = "Lk_uptime"
+  s.version     = "0.0"
   s.tags        = [ ]
-  s.files       = [ "lk_freq.rb" ]
-  s.icons       = [ ]
+  s.files       = [ "lk_uptime.rb" ]
+  s.icons       = [ "off.xbm" ]
 
   # Sublet description
-  s.description = "show freq in Ghz"
+  s.description = "show uptime"
   s.notes       = <<NOTES
-show freq in Ghz
+show uptime
 NOTES
 
   # Sublet authors
   s.authors     = [ "jinleileiking" ]
-  s.contact     = "jinleileiking@gmail.com"
-  s.date        = "Mon May 13 17:12 CST 2013"
+  s.contact     = "YOUREMAIL"
+  s.date        = "Wed May 15 15:55 CST 2013"
 
   # Sublet config
   #s.config = [
@@ -32,7 +32,7 @@ NOTES
 
   # Sublet grabs
   #s.grabs = {
-  #  :Lk_freqGrab => "Sublet grab"
+  #  :Lk_uptimeGrab => "Sublet grab"
   #}
 
   # Sublet requirements

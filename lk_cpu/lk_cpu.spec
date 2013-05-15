@@ -1,24 +1,24 @@
 # -*- encoding: utf-8 -*-
-# Lk_freq specification file
+# Lk_cpu specification file
 # Created with sur-0.2
 Sur::Specification.new do |s|
   # Sublet information
-  s.name        = "Lk_freq"
+  s.name        = "Lk_cpu"
   s.version     = "0.2"
   s.tags        = [ ]
-  s.files       = [ "lk_freq.rb" ]
-  s.icons       = [ ]
+  s.files       = [ "lk_cpu.rb" ]
+  s.icons       = [ "cpu.xbm"]
 
   # Sublet description
-  s.description = "show freq in Ghz"
+  s.description = "show cpu use"
   s.notes       = <<NOTES
-show freq in Ghz
+show cpu use
 NOTES
 
   # Sublet authors
   s.authors     = [ "jinleileiking" ]
   s.contact     = "jinleileiking@gmail.com"
-  s.date        = "Mon May 13 17:12 CST 2013"
+  s.date        = "Tue May 14 15:12 CST 2013"
 
   # Sublet config
   #s.config = [
@@ -32,7 +32,7 @@ NOTES
 
   # Sublet grabs
   #s.grabs = {
-  #  :Lk_freqGrab => "Sublet grab"
+  #  :Lk_cpuGrab => "Sublet grab"
   #}
 
   # Sublet requirements
